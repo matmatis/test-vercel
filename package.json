@@ -1,0 +1,14 @@
+{
+  "name": "vercel-first-project",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "serve . -l 3000",
+    "start": "serve . -l 3000",
+    "deploy": "vercel"
+  },
+  "devDependencies": {
+    "serve": "^14.2.4",
+    "vercel": "^41.0.0"
+  }
+}
